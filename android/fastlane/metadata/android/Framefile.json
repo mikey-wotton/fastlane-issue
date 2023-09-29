@@ -1,0 +1,50 @@
+{
+  "device_frame_version": "latest",
+  "default": {
+    "keyword": {
+      "fonts": [
+        {
+          "font": "./fonts/MorningBreezeBold.otf",
+          "supported": [
+            "en-US"
+          ]
+        },
+        {
+          "font": "./fonts/NotoSansJPBold.ttf",
+          "supported": [
+            "ja-JP"
+          ]
+        }
+      ],
+      "font_size": 156,
+      "color": "#ffe4b9"
+    },
+    "title": {
+      "fonts": [
+        {
+          "font": "./fonts/MorningBreezeLight.otf",
+          "supported": [
+            "en-US"
+          ]
+        },
+        {
+          "font": "./fonts/NotoSansJPLight.ttf",
+          "supported": [
+            "ja-JP"
+          ]
+        }
+      ],
+      "font_size": 120,
+      "color": "#fde8c8"
+    },
+    "background": "./background_blue.jpg",
+    "padding": 80,
+    "stack_title": true,
+    "title_min_height": 720
+  },
+  "data": [
+    {
+      "filter": "ScreenCharacter"
+    }
+  ]
+}
